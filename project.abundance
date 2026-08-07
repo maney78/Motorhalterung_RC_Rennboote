@@ -259,7 +259,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-cut-cut-extrude-circle-15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-extrude-move-rectangle-26-40--4-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38--7-0-0",
+            "geometry": "move-cut-move-cut-extrude-circle-15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-2-0-0-extrude-move-rectangle-26-40--4-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38--7-0-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -325,7 +325,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 23
+          "ioValue": 24
         }
       ]
     },
@@ -348,8 +348,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.827683615819209,
-      "y": 0.39473684210526316,
+      "x": 0.8239171374764594,
+      "y": 0.3574561403508772,
       "uniqueID": "id-99",
       "ioValues": [
         {
@@ -388,8 +388,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4681732580037665,
-      "y": 0.47368421052631576,
+      "x": 0.46045197740113,
+      "y": 0.5723684210526315,
       "uniqueID": "id-109",
       "ioValues": [
         {
@@ -409,6 +409,24 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.8931261770244822,
+      "y": 0.1469298245614035,
+      "uniqueID": "id-115",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10.5,
+          "currentEquation": "10.5"
+        },
+        {
+          "name": "y length",
+          "ioValue": 16,
+          "currentEquation": "16"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -421,11 +439,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-11",
       "ap2ID": "id-40"
-    },
-    {
-      "ap2Name": "retain",
-      "ap1ID": "id-22",
-      "ap2ID": "id-56"
     },
     {
       "ap2Name": "geometry",
@@ -501,6 +514,11 @@
       "ap2Name": "remove",
       "ap1ID": "id-95",
       "ap2ID": "id-99"
+    },
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-109",
+      "ap2ID": "id-56"
     }
   ],
   "unitsKey": "MM",

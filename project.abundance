@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "Output",
-      "x": 0.98,
-      "y": 0.5,
+      "x": 0.3577405857740586,
+      "y": 0.27007299270072993,
       "uniqueID": "id-2",
       "ioValues": [
         {
@@ -1153,6 +1153,36 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Export",
+      "x": 0.40585774058577406,
+      "y": 0.4744525547445255,
+      "uniqueID": "id-358",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Motorhalterung_RC_Rennboote",
+          "currentEquation": "Motorhalterung_RC_Rennboote"
+        }
+      ],
+      "type": "STL",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Motorhalterung_RC_Rennboote"
     }
   ],
   "allConnectors": [
@@ -1340,6 +1370,16 @@
       "ap2Name": "remove",
       "ap1ID": "id-269",
       "ap2ID": "id-275"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-275",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-275",
+      "ap2ID": "id-358"
     },
     {
       "ap2Name": "retain",

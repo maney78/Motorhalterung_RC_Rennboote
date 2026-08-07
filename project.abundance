@@ -1,13 +1,123 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-1",
-    "name": "Motorhalterung_RC_Rennboote",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "Motorhalterung_RC_Rennboote",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-2",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.21045197740112995,
+      "y": 0.5,
+      "uniqueID": "id-4",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 28,
+          "currentEquation": "28"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.31045197740112995,
+      "y": 0.5,
+      "uniqueID": "id-7",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 38,
+          "currentEquation": "38"
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.24152542372881353,
+      "y": 0.6929824561403509,
+      "uniqueID": "id-11",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 30,
+          "currentEquation": "30"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.34152542372881356,
+      "y": 0.6929824561403509,
+      "uniqueID": "id-14",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 38,
+          "currentEquation": "38"
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.4284369114877589,
+      "y": 0.5131578947368421,
+      "uniqueID": "id-18",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-7"
+    },
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-7",
+      "ap2ID": "id-18"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-11",
+      "ap2ID": "id-14"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-14",
+      "ap2ID": "id-18"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }

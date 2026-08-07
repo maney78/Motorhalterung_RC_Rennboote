@@ -1132,6 +1132,102 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.12531380753138077,
+      "y": 0.071654501216545,
+      "uniqueID": "id-551",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 28
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.13436911487758946,
+      "y": 0.23333333333333334,
+      "uniqueID": "id-552",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 30
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.30784518828451884,
+      "y": 0.20790754257907545,
+      "uniqueID": "id-553",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.20499058380414314,
+      "y": 0.05350877192982456,
+      "uniqueID": "id-554",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 38
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2147489539748954,
+      "y": 0.44391727493917277,
+      "uniqueID": "id-555",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 38
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4569037656903766,
+      "y": 0.1981751824817518,
+      "uniqueID": "id-556",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 2
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1344,6 +1440,31 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-337",
       "ap2ID": "id-86"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-551",
+      "ap2ID": "id-554"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-552",
+      "ap2ID": "id-555"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-553",
+      "ap2ID": "id-556"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-554",
+      "ap2ID": "id-553"
+    },
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-555",
+      "ap2ID": "id-553"
     }
   ],
   "unitsKey": "MM",

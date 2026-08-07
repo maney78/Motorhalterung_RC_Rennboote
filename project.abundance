@@ -641,17 +641,81 @@
         },
         {
           "name": "xDist",
-          "ioValue": 3
+          "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": 30
+          "ioValue": 34.7,
+          "currentEquation": "34.7"
         },
         {
           "name": "zDist",
-          "ioValue": 12
+          "ioValue": 21
         }
       ]
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.792843691148776,
+      "y": 0.3114035087719298,
+      "uniqueID": "id-192",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "cut-fuse-move-cut-move-cut-extrude-circle-15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-2-0-0-extrude-move-rectangle-26-40--4-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38--7-0-0-move-extrude-rectangle-2-35.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-53-1-0--7-extrude-rectangle-4-24-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38",
+            "tags": [],
+            "bom": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "dimension": "3D"
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-rotate-move-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0-17-0-0-90-180-0-34.7-21",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        }
+      ],
+      "unionType": "Fusion"
     }
   ],
   "allConnectors": [
@@ -736,6 +800,11 @@
       "ap2ID": "id-99"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-99",
+      "ap2ID": "id-192"
+    },
+    {
       "ap2Name": "retain",
       "ap1ID": "id-109",
       "ap2ID": "id-56"
@@ -809,6 +878,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-180",
       "ap2ID": "id-186"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-186",
+      "ap2ID": "id-192"
     }
   ],
   "unitsKey": "MM",

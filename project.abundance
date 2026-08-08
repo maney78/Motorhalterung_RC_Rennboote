@@ -67,7 +67,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-cut-move-cut-extrude-circle-15.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-2-0-0-extrude-move-rectangle-26-40--4-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38--7-0-0",
+            "geometry": "move-cut-move-cut-extrude-circle-16-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-3-0-0-extrude-move-rectangle-26-40--4-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38--7-0-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -94,7 +94,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-extrude-rectangle-2-35.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-53-1-0--7",
+            "geometry": "move-extrude-rectangle-3-35.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-53-1-0--7",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -129,11 +129,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 4
+          "ioValue": 5
         },
         {
           "name": "y length",
-          "ioValue": 24
+          "ioValue": 24.5
         }
       ]
     },
@@ -282,7 +282,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "cut-fuse-move-cut-move-cut-extrude-circle-15.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-2-0-0-extrude-move-rectangle-26-40--4-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38--7-0-0-move-extrude-rectangle-2-35.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-53-1-0--7-move-extrude-rectangle-4-24-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--1",
+            "geometry": "cut-fuse-move-cut-move-cut-extrude-circle-16-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-3-0-0-extrude-move-rectangle-26-40--4-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38--7-0-0-move-extrude-rectangle-3-35.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-53-1-0--7-move-extrude-rectangle-5-24.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--1",
             "tags": [],
             "bom": [],
             "plane": {
@@ -309,7 +309,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rotate-move-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0-17-0-0-90-180-0-34.7-19.5",
+            "geometry": "move-rotate-move-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0-17-0-0-90-180-0-34.7-19.5",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -336,7 +336,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "cut-move-rotate-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0--90-0-0--17.7-19.5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13--2--22.7-13",
+            "geometry": "cut-move-rotate-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0--90-0-0--17.7-19.5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13--2--22.7-13",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -641,7 +641,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 31
+              "ioValue": 32
             }
           ]
         },
@@ -847,7 +847,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 2
+              "ioValue": 3
             },
             {
               "name": "y length",
@@ -1077,8 +1077,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.5214435146443515,
-      "y": 0.6545012165450121,
+      "x": 0.5209205020920502,
+      "y": 0.6763990267639903,
       "uniqueID": "id-801",
       "name": "Bohrloch Seitlicher Halter",
       "topLevel": false,
@@ -1103,7 +1103,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 2
+              "ioValue": 3
             }
           ]
         },
@@ -1338,7 +1338,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 2
+          "ioValue": 3
         },
         {
           "name": "yDist",

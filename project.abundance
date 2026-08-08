@@ -123,8 +123,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.3885983263598326,
-      "y": 0.8710462287104623,
+      "x": 0.38389121338912136,
+      "y": 0.829683698296837,
       "uniqueID": "id-91",
       "ioValues": [
         {
@@ -133,8 +133,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 24.5,
-          "currentEquation": "24.5"
+          "ioValue": 27.5
         }
       ]
     },
@@ -284,7 +283,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "cut-fuse-move-cut-move-cut-extrude-circle-16-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-3-0-0-extrude-move-rectangle-26-40--4-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38--7-0-0-move-extrude-rectangle-3-35.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-53-1-0--7-move-extrude-rectangle-5-24.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--1",
+            "geometry": "cut-fuse-move-cut-move-cut-extrude-circle-16-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-3-0-0-extrude-move-rectangle-26-40--4-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38--7-0-0-move-extrude-rectangle-3-35.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-53-1-0--7-move-extrude-rectangle-5-27.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--1",
             "tags": [],
             "bom": [],
             "plane": {

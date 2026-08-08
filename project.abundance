@@ -133,7 +133,8 @@
         },
         {
           "name": "y length",
-          "ioValue": 24.5
+          "ioValue": 24.5,
+          "currentEquation": "24.5"
         }
       ]
     },
@@ -309,7 +310,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rotate-move-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0-17-0-0-90-180-0-34.7-19.5",
+            "geometry": "move-rotate-move-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.55-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0-17-0-0-90-180-0-34.7-19.5",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -336,7 +337,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "cut-move-rotate-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0--90-0-0--17.7-19.5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13--2--22.7-13",
+            "geometry": "cut-move-rotate-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.55-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0--90-0-0--17.7-19.5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13--2--22.7-13",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -479,7 +480,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -3
         },
         {
           "name": "yDist",
@@ -493,8 +494,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5256276150627616,
-      "y": 0.1435523114355231,
+      "x": 0.49686192468619245,
+      "y": 0.12895377128953772,
       "uniqueID": "id-259",
       "ioValues": [
         {
@@ -543,7 +544,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -4
         },
         {
           "name": "yDist",
@@ -557,8 +558,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.33891213389121344,
-      "y": 0.18248175182481752,
+      "x": 0.3206066945606694,
+      "y": 0.17761557177615572,
       "uniqueID": "id-275",
       "ioValues": [
         {
@@ -917,8 +918,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.03190376569037657,
-      "y": 0.9172749391727494,
+      "x": 0.0350418410041841,
+      "y": 0.8637469586374695,
       "uniqueID": "id-767",
       "name": "Bohrloch Seite",
       "topLevel": false,
@@ -943,8 +944,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 3,
-              "currentEquation": "3"
+              "ioValue": 3.1,
+              "currentEquation": "3.1"
             }
           ]
         },
@@ -1103,7 +1104,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 3
+              "ioValue": 3.1,
+              "currentEquation": "3.1"
             }
           ]
         },

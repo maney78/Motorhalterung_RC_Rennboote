@@ -310,7 +310,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rotate-move-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.55-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0-17-0-0-90-180-0-34.7-19.5",
+            "geometry": "move-rotate-move-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0-17-0-0-90-180-0-34.7-19.5",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -337,7 +337,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "cut-move-rotate-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.55-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0--90-0-0--17.7-19.5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13--2--22.7-13",
+            "geometry": "cut-move-rotate-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0--90-0-0--17.7-19.5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13--2--22.7-13",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -484,7 +484,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 15
+          "ioValue": 14
         },
         {
           "name": "zDist",
@@ -544,15 +544,15 @@
         },
         {
           "name": "xDist",
-          "ioValue": -4
+          "ioValue": -7
         },
         {
           "name": "yDist",
-          "ioValue": 15
+          "ioValue": 14
         },
         {
           "name": "zDist",
-          "ioValue": -4
+          "ioValue": -3
         }
       ]
     },
@@ -944,8 +944,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 3.1,
-              "currentEquation": "3.1"
+              "ioValue": 3.2,
+              "currentEquation": "3.2"
             }
           ]
         },
@@ -1104,8 +1104,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 3.1,
-              "currentEquation": "3.1"
+              "ioValue": 3.2,
+              "currentEquation": "3.2"
             }
           ]
         },

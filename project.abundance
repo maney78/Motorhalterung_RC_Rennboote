@@ -266,7 +266,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 34.7
+          "ioValue": 35.5,
+          "currentEquation": "35.5"
         },
         {
           "name": "zDist",
@@ -310,7 +311,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rotate-move-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0-17-0-0-90-180-0-34.7-19.5",
+            "geometry": "move-rotate-move-cut-cut-extrude-rectangle-12-12.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-7-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0-17-0-0-90-180-0-35.5-19.5",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -337,7 +338,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "cut-move-rotate-cut-cut-extrude-rectangle-12-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0--90-0-0--17.7-19.5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13--2--22.7-13",
+            "geometry": "cut-move-rotate-cut-cut-extrude-rectangle-12-12.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-7-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0--90-0-0--18.4-19.5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13--2--22.7-13",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -404,7 +405,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": -17.7
+          "ioValue": -18.4,
+          "currentEquation": "-18.4"
         },
         {
           "name": "zDist",
@@ -558,8 +560,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.3206066945606694,
-      "y": 0.17761557177615572,
+      "x": 0.3185146443514644,
+      "y": 0.1411192214111922,
       "uniqueID": "id-275",
       "ioValues": [
         {
@@ -593,14 +595,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Motorhalterung_RC_Rennboote",
-          "currentEquation": "Motorhalterung_RC_Rennboote"
+          "ioValue": "Motorhalterung_RC_Rennboote V2",
+          "currentEquation": "Motorhalterung_RC_Rennboote V2"
         }
       ],
       "type": "STL",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Motorhalterung_RC_Rennboote"
+      "partName": "Motorhalterung_RC_Rennboote V2"
     },
     {
       "atomType": "Molecule",
@@ -1201,7 +1203,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 10.5
+              "ioValue": 12.5
             }
           ]
         },
@@ -1233,7 +1235,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 6
+              "ioValue": 7
             }
           ]
         },
@@ -1255,8 +1257,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.5900188323917137,
-          "y": 0.8425438596491228,
+          "x": 0.5910041841004184,
+          "y": 0.7858880778588807,
           "uniqueID": "id-829",
           "ioValues": [
             {

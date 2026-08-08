@@ -311,7 +311,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rotate-move-cut-cut-extrude-rectangle-12-12.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-7-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0-17-0-0-90-180-0-35.5-19.5",
+            "geometry": "move-rotate-move-cut-cut-extrude-rectangle-12-12.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-7-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2-0-0-17-0-0-90-180-0-35.5-19.5",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -338,7 +338,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "cut-move-rotate-cut-cut-extrude-rectangle-12-12.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-7-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2.5-0-0--90-0-0--18.4-19.5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13--2--22.7-13",
+            "geometry": "cut-move-rotate-cut-cut-extrude-rectangle-12-12.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-7-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2-0-0--90-0-0--18.4-19.5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13--2--22.7-13",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -1143,7 +1143,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": -2.5
+              "ioValue": -2,
+              "currentEquation": "-2"
             },
             {
               "name": "zDist",

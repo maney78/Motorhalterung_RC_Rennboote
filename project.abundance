@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.1459205020920502,
-      "y": 0.36496350364963503,
+      "x": 0.14487447698744768,
+      "y": 0.3260340632603406,
       "uniqueID": "id-56",
       "ioValues": [
         {
@@ -54,8 +54,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": -0.5,
-          "currentEquation": "-0.5"
+          "ioValue": -0.5
         }
       ]
     },
@@ -266,8 +265,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 36.7,
-          "currentEquation": "36.7"
+          "ioValue": 36.7
         },
         {
           "name": "zDist",
@@ -405,8 +403,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -20,
-          "currentEquation": "-20"
+          "ioValue": -20
         },
         {
           "name": "zDist",
@@ -605,9 +602,57 @@
       "partName": "Motorhalterung_RC_Rennboote V3"
     },
     {
+      "atomType": "Move",
+      "x": 0.10407949790794979,
+      "y": 0.2165450121654501,
+      "uniqueID": "id-862",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 7.4
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5475941422594142,
+      "y": 0.33576642335766427,
+      "uniqueID": "id-873",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": -1
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
-      "x": 0.026673640167364017,
-      "y": 0.25060827250608275,
+      "x": 0.023535564853556488,
+      "y": 0.23357664233576642,
       "uniqueID": "id-279",
       "name": "New Molecule",
       "topLevel": false,
@@ -676,8 +721,7 @@
             },
             {
               "name": "height",
-              "ioValue": 40,
-              "currentEquation": "40"
+              "ioValue": 40
             }
           ]
         },
@@ -759,8 +803,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 41,
-              "currentEquation": "41"
+              "ioValue": 41
             }
           ]
         },
@@ -776,8 +819,7 @@
             },
             {
               "name": "height",
-              "ioValue": 40,
-              "currentEquation": "40"
+              "ioValue": 40
             }
           ]
         },
@@ -857,8 +899,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 38,
-              "currentEquation": "38"
+              "ioValue": 38
             }
           ]
         },
@@ -950,8 +991,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 3.2,
-              "currentEquation": "3.2"
+              "ioValue": 3.2
             }
           ]
         },
@@ -1110,8 +1150,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 3.2,
-              "currentEquation": "3.2"
+              "ioValue": 3.2
             }
           ]
         },
@@ -1147,8 +1186,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -2,
-              "currentEquation": "-2"
+              "ioValue": -2
             },
             {
               "name": "zDist",
@@ -1334,55 +1372,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Move",
-      "x": 0.10407949790794979,
-      "y": 0.2165450121654501,
-      "uniqueID": "id-862",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 7.4,
-          "currentEquation": "7.4"
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.5475941422594142,
-      "y": 0.33576642335766427,
-      "uniqueID": "id-873",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": -1
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -1497,6 +1486,16 @@
       "ap2ID": "id-358"
     },
     {
+      "ap2Name": "retain",
+      "ap1ID": "id-862",
+      "ap2ID": "id-56"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-873",
+      "ap2ID": "id-99"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-279",
       "ap2ID": "id-862"
@@ -1545,16 +1544,6 @@
       "ap2Name": "retain",
       "ap1ID": "id-821",
       "ap2ID": "id-170"
-    },
-    {
-      "ap2Name": "retain",
-      "ap1ID": "id-862",
-      "ap2ID": "id-56"
-    },
-    {
-      "ap2Name": "remove",
-      "ap1ID": "id-873",
-      "ap2ID": "id-99"
     }
   ],
   "unitsKey": "MM",

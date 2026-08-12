@@ -37,7 +37,7 @@
     {
       "atomType": "Move",
       "x": 0.2337866108786611,
-      "y": 0.30656934306569344,
+      "y": 0.25060827250608275,
       "uniqueID": "id-80",
       "ioValues": [
         {
@@ -46,7 +46,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -10
+          "ioValue": -7.5
         },
         {
           "name": "yDist",
@@ -67,7 +67,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-cut-move-cut-extrude-circle-16-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-7.4-0-0-extrude-move-rectangle-26-41--4-2-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40--10-0--0.5",
+            "geometry": "move-cut-move-cut-extrude-circle-16-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0-0-extrude-move-rectangle-26-41--4-2-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40--7.5-0--0.5",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -282,7 +282,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "cut-fuse-move-cut-move-cut-extrude-circle-16-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-7.4-0-0-extrude-move-rectangle-26-41--4-2-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40--10-0--0.5-move-extrude-rectangle-3-38-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-53-1-0--7-move-extrude-rectangle-5-27-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--1",
+            "geometry": "cut-fuse-move-cut-move-cut-extrude-circle-16-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-extrude-circle-14-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0-0-extrude-move-rectangle-26-41--4-2-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40--7.5-0--0.5-move-extrude-rectangle-3-38-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-53-1-0--7-move-extrude-rectangle-5-27-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--1",
             "tags": [],
             "bom": [],
             "plane": {
@@ -613,7 +613,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 7.4
+          "ioValue": 0
         },
         {
           "name": "yDist",

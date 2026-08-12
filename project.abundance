@@ -487,14 +487,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Motorhalterung_RC_Rennboote V4",
-          "currentEquation": "Motorhalterung_RC_Rennboote V4"
+          "ioValue": "Motorhalterung_RC_Rennboote V5",
+          "currentEquation": "Motorhalterung_RC_Rennboote V5"
         }
       ],
       "type": "STL",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Motorhalterung_RC_Rennboote V4"
+      "partName": "Motorhalterung_RC_Rennboote V5"
     },
     {
       "atomType": "Move",
@@ -886,8 +886,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.853672316384181,
-          "y": 0.5223684210526315,
+          "x": 0.47071129707112974,
+          "y": 0.2749391727493917,
           "uniqueID": "id-784",
           "ioValues": [
             {
@@ -896,14 +896,14 @@
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 9
             }
           ]
         },
         {
           "atomType": "Extrude",
-          "x": 0.9318267419962336,
-          "y": 0.5421052631578946,
+          "x": 0.6035564853556485,
+          "y": 0.2798053527980535,
           "uniqueID": "id-785",
           "ioValues": [
             {
@@ -1318,7 +1318,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "cut-move-rotate-cut-cut-extrude-rectangle-12-12.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-7-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2-0-0--90-0-0--20-19.5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13--2--22.7-13",
+            "geometry": "cut-move-rotate-cut-cut-extrude-rectangle-12-12.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-rectangle-12-7-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--3-0-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0--2-0-0--90-0-0--20-19.5-move-extrude-rectangle-10-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13--2--22.7-13",
             "dimension": "3D",
             "plane": {
               "origin": [

@@ -377,7 +377,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 16
+          "ioValue": 13
         },
         {
           "name": "zDist",
@@ -441,11 +441,12 @@
         },
         {
           "name": "yDist",
-          "ioValue": 16
+          "ioValue": 13
         },
         {
           "name": "zDist",
-          "ioValue": -3
+          "ioValue": -3.2,
+          "currentEquation": "-3.2"
         }
       ]
     },
@@ -1290,7 +1291,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "cut-#e8a12073d9357cba8a2a0990ac599c0e",
+            "geometry": "cut-#d52db8fb8660049099fdcd86bf1366e9",
             "tags": [],
             "bom": [],
             "plane": {
